@@ -2,7 +2,8 @@
 My project is devoted to the analysis of scientific articles, more precisely, to the calculation of which types of cells are being researched in the article. 
 In this training model, I decided to limit myself to analyzing the main blood cell lines, although ideally I would like to analyze all possible cell types. However, for now, I decided to limit myself to a small model based on the analysis of blood cells.
 
-So the database my analysis is based on is in the file "cell lines.db" (screen "database.png"
+So the database my analysis is based on is in the file "cell lines.db"
+!database.png(https://github.com/AlenaSt97/Article-research/blob/main/database.png?raw=true)
 
 In order to determine the type of cells, I decided to analyze 2 hypotheses: the first hypothesis is based on the mention of cell markers in the article. In fact, this is an attempt to "calculate" a cell line based on the specific proteins that appear in the article. The second hypothesis is an analysis of the specific names of cell types that are mentioned in the article.
 
