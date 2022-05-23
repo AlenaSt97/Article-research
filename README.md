@@ -13,11 +13,13 @@ Thus, for each article there are 2 stages of data collection: first, the first p
 
 Further, the third program makes the final calculation, which adds up the data of the first and second hypotheses, and also takes into account the length of the article as a whole, and whether or not the analyzed concepts are mentioned among the keywords of the article, in its title, etc.
 
-This is program "finalcalc.py". She puts all the data in the "markersrating.sqlite" file (screen "data.png")
+This is program "finalcalc.py". She puts all the data in the "markersrating.sqlite" file.
+![data.png](https://github.com/AlenaSt97/Article-research/blob/main/data.png?raw=true)
 
 And finally, the last program creates a java script file based on all the collected data in order to further build the final graph. I decided that it would be a bar chart.
 
-This is done by the program "graph.py". You can run the "cellrating.htm" file to see the graph that resulted from the analysis of five random articles on the topic of blood cells that I found on NCBI (or see the "graph.png" image).
+This is done by the program "graph.py". You can run the "cellrating.htm" file to see the graph that resulted from the analysis of five random articles on the topic of blood cells that I found on NCBI.
+![graph.png](https://github.com/AlenaSt97/Article-research/blob/main/graph.png?raw=true)
 
 The numbers on the Y-axis are just "points" that correlate with the mention of cell markers and cell names in the article. I also added some coefficients there to make the data more representative.
 
